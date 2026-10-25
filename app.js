@@ -6,7 +6,8 @@ function esc(value) { return String(value ?? '').replace(/[&<>"']/g, c => ({'&':
 function render() {
   const query = document.querySelector('#search').value.trim().toLowerCase();
   const rows = edition.gongzhonghao.filter(x => `${x.title} ${x.type}`.toLowerCase().includes(query));
-  content.innerHTML = `<p class="count" role="status">${query ? `找到 ${rows.length} 篇，共 ${edition.gongzhonghao.length} 篇` : `共 ${rows.length} 篇`}</p>` + rows.map(x => `<article class="item"><a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.title)}</a><span class="source">${esc(x.type)}</span></article>`).join('') + (rows.length ? '' : `<p class="message">${query ? '没有符合搜索条件的文章。' : '当天没有符合筛选条件的资讯。'}</p>`);
+  const summary = edition.summary ? `<section class="daily-summary" aria-label="当日总结"><p>${esc(edition.summary)}</p></section>` : '';
+  content.innerHTML = summary + `<p class="count" role="status">${query ? `找到 ${rows.length} 篇，共 ${edition.gongzhonghao.length} 篇` : `共 ${rows.length} 篇`}</p>` + rows.map(x => `<article class="item"><a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.title)}</a><span class="source">${esc(x.type)}</span></article>`).join('') + (rows.length ? '' : `<p class="message">${query ? '没有符合搜索条件的文章。' : '当天没有符合筛选条件的资讯。'}</p>`);
 }
 async function load(date) {
   const version = ++loadVersion;

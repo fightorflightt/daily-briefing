@@ -12,6 +12,8 @@ h1 { margin: 0 10px 24px; font-size: 16px; font-weight: 600; }
 h2 { margin: 0; font-size: 20px; font-weight: 600; font-variant-numeric: tabular-nums; }
 #search { width: 240px; max-width: 100%; padding: 8px 10px; border: 1px solid #d8d8d8; border-radius: 4px; color: inherit; background: #fff; font: inherit; }
 .count { margin: 16px 0 4px; color: #777; font-size: 13px; }
+.daily-summary { margin-top: 20px; padding-bottom: 18px; border-bottom: 1px solid #e7e7e7; }
+.daily-summary p { margin: 0; color: #444; font-size: 14px; line-height: 1.9; overflow-wrap: anywhere; }
 .item { padding: 14px 0; border-bottom: 1px solid #eee; }
 .item a { display: block; width: fit-content; color: #222; font-size: 15px; text-decoration: none; overflow-wrap: anywhere; }
 .item a:hover { text-decoration: underline; text-underline-offset: 3px; }
