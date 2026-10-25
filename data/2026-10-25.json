@@ -1,32 +1,15 @@
 {
   "date": "2026-10-25",
-  "updatedAt": "2026-10-25T08:04:00.995Z",
-  "note": "本页为同步新增的公众号文章目录，保留原文链接；日期表示资讯记录日期，不代表文章原始发布日期。",
+  "updatedAt": "2026-10-25T08:14:51.014Z",
+  "note": "筛选政策法规、重要会议及具体机会；按文章标题初筛，保留公众号原文链接。日期表示资讯记录日期，不代表原始发布日期。",
+  "filterVersion": "2026-10-25-policy",
+  "totalCollected": 31,
+  "filteredCount": 19,
   "gongzhonghao": [
-    {
-      "type": "深圳发布",
-      "title": "联合国前副秘书长: 深圳是奇迹之城",
-      "url": "https://mp.weixin.qq.com/s/Fp50sbdGabHMSRibSLIsgg"
-    },
-    {
-      "type": "工信微报",
-      "title": "从卖设备到当“工业保姆” 服务型制造打开中国制造增长新赛道",
-      "url": "https://mp.weixin.qq.com/s/mbRtPnmf2tm8URgizrOiUA"
-    },
     {
       "type": "商务微新闻",
       "title": "商务部新闻发言人就美发布新版对外投资限制拟议规则答记者问",
       "url": "https://mp.weixin.qq.com/s/mJidvYaK~VZTEZArQKZziA"
-    },
-    {
-      "type": "福建粉笔",
-      "title": "报名结束！27国考福建最终报考12.86万人",
-      "url": "https://mp.weixin.qq.com/s/9TVE8e0-ZhKI4clnFBLALQ"
-    },
-    {
-      "type": "中国福建",
-      "title": "2026年世界职业院校技能大赛落幕 福建省215项获奖 创历史新高",
-      "url": "https://mp.weixin.qq.com/s/g80-nSO9OwFLZHrYQkTE~g"
     },
     {
       "type": "中国政府网",
@@ -34,24 +17,9 @@
       "url": "https://mp.weixin.qq.com/s/zAgsmv5YoHqDyi8bamTAqA"
     },
     {
-      "type": "国家发展改革委",
-      "title": "76年了，我们永远不会忘记！",
-      "url": "https://mp.weixin.qq.com/s/CSCcxdyek6oeMrqRZfleiA"
-    },
-    {
       "type": "中国福建",
       "title": "2027年度中央机关公开遴选和公开选调公务员报名即将开始",
       "url": "https://mp.weixin.qq.com/s/WBx14FgtfzmH21Pt1XQ9Tw"
-    },
-    {
-      "type": "国家金融监督管理总局",
-      "title": "赶紧删！赶紧删！这些APP涉诈情况突出",
-      "url": "https://mp.weixin.qq.com/s/BHBQV~dvtu267cWRmCVn-w"
-    },
-    {
-      "type": "健康类公众号",
-      "title": "举手式睡姿是身体求救信号？医生提醒：这几种情况要警惕→",
-      "url": "https://mp.weixin.qq.com/s/SCVDS8I0apKV8gWxWIrGsA"
     },
     {
       "type": "泉州本地宝",
@@ -64,19 +32,9 @@
       "url": "https://mp.weixin.qq.com/s/~6ksa7ZdOnHvZDXeJOeP3g"
     },
     {
-      "type": "逛逛GitHub",
-      "title": "最近又刷到 4 个黑科技 GitHub 项目，第 3 个重点看看。",
-      "url": "https://mp.weixin.qq.com/s/bZk9q56wnwhDrQAFat-AMA"
-    },
-    {
       "type": "中国福建",
       "title": "陈文清主持召开专题会议时强调 有序推进深化扫黑除恶专项斗争走深走实",
       "url": "https://mp.weixin.qq.com/s/fRZaRYOtBqgIHV0eqqiSrA"
-    },
-    {
-      "type": "泉州发布",
-      "title": "寻踪弘一大师：晚年游本昌的泉州缘",
-      "url": "https://mp.weixin.qq.com/s/gjwUxqR3oA0mIjsMvwDa3g"
     },
     {
       "type": "中国政府网",
@@ -89,34 +47,9 @@
       "url": "https://mp.weixin.qq.com/s/GNf7FUIgkPNXZOrFW6AXXg"
     },
     {
-      "type": "晋江发布",
-      "title": "捐资2908万元！阳溪中学建校七十周年，一批教育项目落地建成",
-      "url": "https://mp.weixin.qq.com/s/KxIepSfqiYlnwqI7ZhWU1A"
-    },
-    {
-      "type": "泉州住建",
-      "title": "泉州5项工程荣获2024—2026年度国家优质工程奖",
-      "url": "https://mp.weixin.qq.com/s/cADss2v4wNAU8RhjZxaiag"
-    },
-    {
-      "type": "泉州数字经济产业园",
-      "title": "理响中国·幸福有“理”｜装上“智慧大脑”，传统闽企向新“卷”",
-      "url": "https://mp.weixin.qq.com/s/nYKQkD0tV8RCeYAxVKmjKA"
-    },
-    {
       "type": "泉州华图",
       "title": "石狮产业投资发展集团，五险一金+餐补",
       "url": "https://mp.weixin.qq.com/s/dRLIJLI-GUwZ602P6WFN~w"
-    },
-    {
-      "type": "公众号同步",
-      "title": "中国燃气集团总部积极响应居家办公、错峰休假倡议",
-      "url": "https://mp.weixin.qq.com/s/~Tt7OSUE1zaZPPWk0GaOAQ"
-    },
-    {
-      "type": "公众号同步",
-      "title": "谷先觉，捐出1440克黄金",
-      "url": "https://mp.weixin.qq.com/s/0EMDslMR1HBdCPpKurWQRQ"
     },
     {
       "type": "中国福建",
@@ -127,31 +60,6 @@
       "type": "国家发展改革委",
       "title": "本周“发展改革热点，我知道”",
       "url": "https://mp.weixin.qq.com/s/EKK7OyEqKLnH6kFd~HDcaw"
-    },
-    {
-      "type": "工信微报",
-      "title": "在手订单排至2028年",
-      "url": "https://mp.weixin.qq.com/s/nbcfGQyzyJQwzFhVZTcnHw"
-    },
-    {
-      "type": "中国广州发布",
-      "title": "不愧是花城！广州的花海根本拍不完",
-      "url": "https://mp.weixin.qq.com/s/ZFozgHMeDB1vB8BMB~YeOw"
-    },
-    {
-      "type": "北京发布",
-      "title": "女子地铁站内看书5小时，出站被扣15元“超时费”",
-      "url": "https://mp.weixin.qq.com/s/K5fx4B004v3KbbyWyZ~86g"
-    },
-    {
-      "type": "泉州发布",
-      "title": "收藏！泉州这张手绘地图带你随性漫游",
-      "url": "https://mp.weixin.qq.com/s/X0TRDopEfeyBtJgMHFqNgg"
-    },
-    {
-      "type": "中国政府网",
-      "title": "湖北：七里坪革命法庭 百年薪火映红安",
-      "url": "https://mp.weixin.qq.com/s/lmnkRzeDrsIagMRW4BMUug"
     },
     {
       "type": "泉州政务",

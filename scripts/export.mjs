@@ -1,6 +1,7 @@
 import {readFile, writeFile, readdir, mkdir} from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {classifyArticle, filterVersion} from './filter.mjs';
 const [vault, requestedDate] = process.argv.slice(2);
 if (!vault) throw new Error('用法：node scripts/export.mjs <笔记库绝对路径> [YYYY-MM-DD]');
 const date = requestedDate || new Intl.DateTimeFormat('en-CA', {timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
@@ -18,11 +19,14 @@ for (const line of source.split('\n')) {
   urls.add(url); rows.push({type, title, url});
 }
 if (!rows.length) throw new Error('日报没有可发布文章，保留上一期版面并报告。');
+const decisions = rows.map(article => ({article, ...classifyArticle(article)}));
+const selected = decisions.filter(x => x.keep).map(x => x.article);
 const out = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../data');
 await mkdir(out, {recursive:true});
-const edition = {date, updatedAt:new Date().toISOString(), note:'本页为同步新增的公众号文章目录，保留原文链接；日期表示资讯记录日期，不代表文章原始发布日期。', gongzhonghao:rows};
+const edition = {date, updatedAt:new Date().toISOString(), note:'筛选政策法规、重要会议及具体机会；按文章标题初筛，保留公众号原文链接。日期表示资讯记录日期，不代表原始发布日期。', filterVersion, totalCollected:rows.length, filteredCount:rows.length-selected.length, gongzhonghao:selected};
 await writeFile(path.join(out, `${date}.json`), JSON.stringify(edition, null, 2) + '\n');
 const dates = (await readdir(out)).filter(x => /^\d{4}-\d{2}-\d{2}\.json$/.test(x)).map(x => x.slice(0,-5)).sort().reverse();
 await writeFile(path.join(out, 'archive.json'), JSON.stringify({dates}, null, 2) + '\n');
 await writeFile(path.join(out, 'latest.json'), await readFile(path.join(out, `${dates[0]}.json`)));
-console.log(`${date}：已导出 ${rows.length} 篇公众号文章，历史 ${dates.length} 期。`);
+console.log(`${date}：原始 ${rows.length} 篇，保留 ${selected.length} 篇，过滤 ${rows.length-selected.length} 篇，历史 ${dates.length} 期。`);
+for (const decision of decisions) console.log(`${decision.keep ? '保留' : '过滤'}｜${decision.reason}｜${decision.article.title}`);
