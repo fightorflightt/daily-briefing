@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>aibuilder · 公众号资讯</title>
+  <meta name="description" content="49 个 AI 信息源：26 个 X Builder、15 个 YouTube 博主与频道、6 个播客、2 个官方博客，附固定主页和采集说明。">
+  <link rel="stylesheet" href="style.css?v=20261025-aibuilder">
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <h1><a href="index.html">公众号资讯</a></h1>
+      <nav id="dates" aria-label="日期（最新在上）"><a href="index.html">最新资讯</a></nav>
+      <nav class="page-nav" aria-label="站点页面"><a href="aibuilder.html" aria-current="page">aibuilder</a></nav>
+    </aside>
+    <main class="main">
+      <header class="toolbar">
+        <h2>aibuilder</h2>
+        <input id="search" type="search" aria-label="搜索 AI 信息源" placeholder="搜索博主、平台或特点">
+      </header>
+      <p class="directory-intro">AI 信息源目录 · 固定主页与采集说明</p>
+      <p class="directory-note">49 条信息源，48 个独立主页。Y Combinator 与 Lightcone Podcast 共用频道，主页链接只保留一次；Lightcone 仅采集明确属于 Lightcone Podcast 的单集。</p>
+      <nav class="source-index" aria-label="信息源分类">
+        <a href="#x">X Builder <span>26</span></a>
+        <a href="#youtube">YouTube <span>15</span></a>
+        <a href="#podcast">播客 <span>6</span></a>
+        <a href="#blog">官方博客 <span>2</span></a>
+      </nav>
+      <p id="source-count" class="count" role="status"></p>
+      <section id="sources" aria-label="AI 信息源" aria-busy="true"><p class="message" role="status">正在加载信息源…</p></section>
+      <noscript><p class="message">请启用 JavaScript 查看目录，或<a href="data/aibuilder.json">打开完整信息源数据</a>。</p></noscript>
+      <footer class="site-footer"><a href="index.html">返回公众号资讯</a></footer>
+    </main>
+  </div>
+  <script src="aibuilder.js?v=20261025-aibuilder"></script>
+</body></html>

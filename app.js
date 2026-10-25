@@ -45,7 +45,12 @@ async function init() {
       dateList.append(button);
     }
     document.querySelector('#search').oninput = () => { if (edition) render(); };
-    await load(dates[0]);
+    function loadFromHash() {
+      const date = location.hash.slice(1);
+      load(dates.includes(date) ? date : dates[0]);
+    }
+    window.addEventListener('hashchange', loadFromHash);
+    await load(dates.includes(location.hash.slice(1)) ? location.hash.slice(1) : dates[0]);
   } catch { document.querySelector('#issue-date').textContent = '公众号文章'; content.innerHTML = '<p class="message" role="status">文章目录暂时无法打开，请稍后刷新。</p>'; content.setAttribute('aria-busy', 'false'); }
 }
 init();

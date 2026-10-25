@@ -1,0 +1,350 @@
+{
+  "updated": "2026-10-25",
+  "sources": [
+    {
+      "name": "Andrej Karpathy",
+      "platform": "X",
+      "homepage": "https://x.com/karpathy",
+      "notes": "LLM、Agent、AI Coding、训练方法与 AI 教育；兼顾底层技术与清晰讲解。",
+      "group": "x"
+    },
+    {
+      "name": "Swyx / Shawn Wang",
+      "platform": "X",
+      "homepage": "https://x.com/swyx",
+      "notes": "AI Engineering、Agent、开发者工具与 AI 工程生态。",
+      "group": "x"
+    },
+    {
+      "name": "Josh Woodward",
+      "platform": "X",
+      "homepage": "https://x.com/joshwoodward",
+      "notes": "Google Labs、Gemini、AI Studio 等 AI 产品与实验。",
+      "group": "x"
+    },
+    {
+      "name": "Boris Cherny",
+      "platform": "X",
+      "homepage": "https://x.com/bcherny",
+      "notes": "Claude Code 实践、Coding Agent 与 AI 编程工作流。",
+      "group": "x"
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "platform": "X",
+      "homepage": "https://x.com/thsottiaux",
+      "notes": "Codex、ChatGPT、AI Coding、Agent 与开发体验。",
+      "group": "x"
+    },
+    {
+      "name": "Peter Yang",
+      "platform": "X",
+      "homepage": "https://x.com/petergyang",
+      "notes": "AI Builder、产品方法、实操教程与深度访谈。",
+      "group": "x"
+    },
+    {
+      "name": "Nan Yu",
+      "platform": "X",
+      "homepage": "https://x.com/thenanyu",
+      "notes": "产品设计、AI 产品与软件体验。",
+      "group": "x"
+    },
+    {
+      "name": "Madhu Guru",
+      "platform": "X",
+      "homepage": "https://x.com/realmadhuguru",
+      "notes": "模型产品化、生成式 AI 与多模态产品。",
+      "group": "x"
+    },
+    {
+      "name": "Amanda Askell",
+      "platform": "X",
+      "homepage": "https://x.com/AmandaAskell",
+      "notes": "AI Alignment、Claude 性格、AI 安全、模型行为与人机关系。",
+      "group": "x"
+    },
+    {
+      "name": "Cat Wu",
+      "platform": "X",
+      "homepage": "https://x.com/_catwu",
+      "notes": "Claude Code、Cowork、AI 产品管理与产品经理工作方式。",
+      "group": "x"
+    },
+    {
+      "name": "Thariq Shihipar",
+      "platform": "X",
+      "homepage": "https://x.com/trq212",
+      "notes": "Claude Code 实战、Skills 与 Agent 工作流。",
+      "group": "x"
+    },
+    {
+      "name": "Google Labs",
+      "platform": "X",
+      "homepage": "https://x.com/GoogleLabs",
+      "notes": "Google 新 AI 产品、实验项目与原型，跟踪 AI 产品趋势。",
+      "group": "x"
+    },
+    {
+      "name": "Amjad Masad",
+      "platform": "X",
+      "homepage": "https://x.com/amasad",
+      "notes": "Replit、自然语言编程、Agent、AI 创业与低门槛产品构建。",
+      "group": "x"
+    },
+    {
+      "name": "Guillermo Rauch",
+      "platform": "X",
+      "homepage": "https://x.com/rauchg",
+      "notes": "Vercel、v0、Next.js、前端、AI Coding 与 AI 应用构建。",
+      "group": "x"
+    },
+    {
+      "name": "Alex Albert",
+      "platform": "X",
+      "homepage": "https://x.com/alexalbert__",
+      "notes": "Claude、Prompt、模型能力与开发者生态。",
+      "group": "x"
+    },
+    {
+      "name": "Aaron Levie",
+      "platform": "X",
+      "homepage": "https://x.com/levie",
+      "notes": "企业 AI、Agent、SaaS 变革与 AI 商业化。",
+      "group": "x"
+    },
+    {
+      "name": "Ryo Lu",
+      "platform": "X",
+      "homepage": "https://x.com/ryolu_",
+      "notes": "设计、软件与 AI；关注产品、UI 与个人 Builder 实践。",
+      "group": "x"
+    },
+    {
+      "name": "Garry Tan",
+      "platform": "X",
+      "homepage": "https://x.com/garrytan",
+      "notes": "AI 创业、Startup、Builder、产品与融资。",
+      "group": "x"
+    },
+    {
+      "name": "Matt Turck",
+      "platform": "X",
+      "homepage": "https://x.com/mattturck",
+      "notes": "AI、Data、Agent 创业趋势与行业版图。",
+      "group": "x"
+    },
+    {
+      "name": "Zara Zhang 张咋啦",
+      "platform": "X",
+      "homepage": "https://x.com/zarazhangrui",
+      "notes": "Follow Builders 作者；AI Builder、Coding Agent、Skills、个人项目与信息获取方法。",
+      "group": "x"
+    },
+    {
+      "name": "Nikunj Kothari",
+      "platform": "X",
+      "homepage": "https://x.com/nikunj",
+      "notes": "AI Startup、早期创业、产品与投资判断。",
+      "group": "x"
+    },
+    {
+      "name": "Peter Steinberger",
+      "platform": "X",
+      "homepage": "https://x.com/steipete",
+      "notes": "OpenClaw、Agent、AI Coding、工具试用与个人 Builder 实践。",
+      "group": "x"
+    },
+    {
+      "name": "Dan Shipper",
+      "platform": "X",
+      "homepage": "https://x.com/danshipper",
+      "notes": "AI 工作流、非技术人员 Build、AI 写作、Agent 与个人效率。",
+      "group": "x"
+    },
+    {
+      "name": "Aditya Agarwal",
+      "platform": "X",
+      "homepage": "https://x.com/adityaag",
+      "notes": "技术创业、产品与 Builder 经验。",
+      "group": "x"
+    },
+    {
+      "name": "Sam Altman",
+      "platform": "X",
+      "homepage": "https://x.com/sama",
+      "notes": "OpenAI 公司方向、模型路线、AI 行业战略与重大产品动态。",
+      "group": "x"
+    },
+    {
+      "name": "Claude",
+      "platform": "X",
+      "homepage": "https://x.com/claudeai",
+      "notes": "Claude 官方账号；产品更新、新功能与 Claude Code / Cowork 动态。",
+      "group": "x"
+    },
+    {
+      "name": "Latent Space",
+      "platform": "Podcast / YouTube / 网站",
+      "homepage": "https://latent.space/podcasts/",
+      "notes": "面向 AI Engineer，访谈真正做模型、Agent、AI Infra、开发工具的人；技术密度很高。",
+      "group": "podcast"
+    },
+    {
+      "name": "Training Data",
+      "platform": "Podcast / YouTube",
+      "homepage": "https://sequoiacap.com/series/training-data",
+      "notes": "红杉资本出品；采访 AI Builder 和研究者，兼顾技术、商业、创业。",
+      "group": "podcast"
+    },
+    {
+      "name": "No Priors",
+      "platform": "Podcast / YouTube",
+      "homepage": "https://linktr.ee/nopriors",
+      "notes": "Sarah Guo + Elad Gil；AI 技术、创业、投资、行业趋势，嘉宾质量非常高。",
+      "group": "podcast"
+    },
+    {
+      "name": "Unsupervised Learning",
+      "platform": "Podcast / YouTube",
+      "homepage": "https://unsupervised-learning.simplecast.com/",
+      "notes": "Redpoint 出品；Builder、研究者、投资人视角，重点拆“哪些 AI 进展是真的”。",
+      "group": "podcast"
+    },
+    {
+      "name": "The MAD Podcast with Matt Turck",
+      "platform": "Podcast / YouTube",
+      "homepage": "https://www.mattturck.com/podcast",
+      "notes": "Machine Learning、AI、Data；创业者、研究者、基础设施、Agent、AI 商业。",
+      "group": "podcast"
+    },
+    {
+      "name": "AI & I by Every",
+      "platform": "Podcast / YouTube",
+      "homepage": "https://every.to/podcast",
+      "notes": "知识工作者的 AI 实践：工作流、写作、Coding 与个人生产力案例。",
+      "group": "podcast"
+    },
+    {
+      "name": "Anthropic Engineering",
+      "platform": "官方技术博客",
+      "homepage": "https://www.anthropic.com/engineering",
+      "notes": "Claude Code、Agent、安全、上下文、工具调用与工程架构等技术深度文章。",
+      "group": "blog"
+    },
+    {
+      "name": "Claude Blog",
+      "platform": "官方产品博客",
+      "homepage": "https://claude.com/resources/articles",
+      "notes": "Claude 新产品、新能力、使用方法、产品设计思路与官方公告；使用官方文章页。",
+      "group": "blog"
+    },
+    {
+      "name": "Matt Wolfe",
+      "platform": "YouTube",
+      "homepage": "https://www.youtube.com/@mreflow",
+      "notes": "AI 工具、行业新闻与变现机会。",
+      "group": "youtube"
+    },
+    {
+      "name": "Dan Koe",
+      "platform": "YouTube",
+      "homepage": "https://www.youtube.com/@dankoetalks",
+      "notes": "一人公司、内容系统与个人商业模式。",
+      "group": "youtube"
+    },
+    {
+      "name": "Nate Herk",
+      "platform": "YouTube",
+      "homepage": "https://www.youtube.com/@nateherk",
+      "notes": "AI 自动化、Agent 与企业落地。",
+      "group": "youtube"
+    },
+    {
+      "name": "Greg Isenberg",
+      "platform": "YouTube",
+      "homepage": "https://www.youtube.com/@GregIsenberg",
+      "notes": "AI 创业点子、社区生意与产品实验。",
+      "group": "youtube"
+    },
+    {
+      "name": "李沐（Mu Li）",
+      "platform": "YouTube",
+      "homepage": "https://www.youtube.com/@AI-qb8eh",
+      "notes": "仅采集此频道；严禁使用 GitHub。",
+      "group": "youtube"
+    },
+    {
+      "name": "李宏毅（Hung-yi Lee）",
+      "platform": "YouTube",
+      "homepage": "https://www.youtube.com/c/HungyiLeeNTU/",
+      "notes": "机器学习、深度学习与 Agent 课程。",
+      "group": "youtube"
+    },
+    {
+      "name": "吴恩达／DeepLearning.AI",
+      "platform": "YouTube",
+      "homepage": "https://www.youtube.com/@Deeplearningai",
+      "notes": "AI 与 Agent 的体系化课程和应用。",
+      "group": "youtube"
+    },
+    {
+      "name": "Dwarkesh Patel",
+      "platform": "YouTube",
+      "homepage": "https://www.youtube.com/@DwarkeshPatel",
+      "notes": "AI 研究者、创始人与技术思想家访谈。",
+      "group": "youtube"
+    },
+    {
+      "name": "Y Combinator",
+      "platform": "YouTube",
+      "homepage": "https://www.youtube.com/@ycombinator",
+      "notes": "AI 创业、产品和创始人方法论。",
+      "group": "youtube",
+      "id": "y-combinator"
+    },
+    {
+      "name": "Lenny’s Podcast",
+      "platform": "YouTube",
+      "homepage": "https://www.youtube.com/@lennyspodcast",
+      "notes": "产品、增长与职业发展访谈。",
+      "group": "youtube"
+    },
+    {
+      "name": "The AI Daily Brief",
+      "platform": "YouTube",
+      "homepage": "https://www.youtube.com/@TheAIDailyBrief",
+      "notes": "AI 新闻与趋势简报。",
+      "group": "youtube"
+    },
+    {
+      "name": "Tina Huang",
+      "platform": "YouTube",
+      "homepage": "https://www.youtube.com/@TinaHuang1",
+      "notes": "AI 学习与效率工作流。",
+      "group": "youtube"
+    },
+    {
+      "name": "Jeff Su",
+      "platform": "YouTube",
+      "homepage": "https://www.youtube.com/@JeffSu",
+      "notes": "AI 工具和知识工作提效。",
+      "group": "youtube"
+    },
+    {
+      "name": "Lightcone Podcast",
+      "platform": "YouTube",
+      "homepage": "https://www.youtube.com/@ycombinator",
+      "notes": "仅采集明确属于 Lightcone Podcast 的单集；与 Y Combinator 重复链接只保留一次。",
+      "group": "youtube",
+      "sharedWith": "y-combinator"
+    },
+    {
+      "name": "Riley Brown",
+      "platform": "YouTube",
+      "homepage": "https://www.youtube.com/@rileybrownai",
+      "notes": "Agent、Vibe Coding 与 AI 应用开发。",
+      "group": "youtube"
+    }
+  ]
+}
