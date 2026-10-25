@@ -1,0 +1,6 @@
+const categories={gongzhonghao:'公众号',ai:'AI 观察',zhengce:'政策雷达',shangan:'上岸机会',fupan:'每日复盘'};
+let data={};
+function esc(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function render(key){const rows=data[key]||[];document.querySelector('#content').innerHTML=`<div class="section-title"><h3>${categories[key]}</h3><span class="count">${rows.length} 条记录</span></div>${rows.length?rows.map(x=>`<article class="item"><div class="tag">${esc(x.type||'NOTE')}</div><div><h4>${esc(x.title)}</h4>${x.summary?`<p>${esc(x.summary)}</p>`:''}${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noreferrer">查看原始来源 ↗</a>`:''}</div></article>`).join(''):'<p class="loading">本期没有新增记录。</p>'}`}
+async function init(){try{const r=await fetch('data/latest.json');data=await r.json();document.querySelector('#issue-date').textContent=data.date;const tabs=document.querySelector('#tabs');Object.entries(categories).forEach(([k,v],i)=>{const b=document.createElement('button');b.textContent=v;b.dataset.key=k;b.className=i?'':'active';b.onclick=()=>{document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('active'));b.classList.add('active');render(k)};tabs.appendChild(b)});render('gongzhonghao')}catch(e){document.querySelector('#content').innerHTML='<p class="loading">今晚版面暂未发布，请稍后再来。</p>'}}
+init();
