@@ -21,7 +21,7 @@ export function buildSummary(rows) {
   const policies = [], meetings = [], opportunities = [], other = [];
   for (const row of rows) {
     if (/补贴|奖补|资助|申报|消费券|招标|采购公告|项目征集|招商|产业扶持|公开遴选|公开选调|招录|招聘|送岗引才|人才引进|五险一金/.test(row.title)) opportunities.push(row);
-    else if (/会议|常务会|大会|发布会/.test(row.title)) meetings.push(row);
+    else if (/会议|常务会|大会|全会|发布会/.test(row.title)) meetings.push(row);
     else if (/政策|法规|条例|新规|办法|细则|意见|印发|规划|试点|规则/.test(row.title)) policies.push(row);
     else other.push(row);
   }
