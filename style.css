@@ -19,6 +19,21 @@ h2 { margin: 0; font-size: 20px; font-weight: 600; font-variant-numeric: tabular
 .item a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .source { display: block; margin-top: 4px; color: #888; font-size: 12px; }
 .message { color: #777; margin-top: 20px; }
+.category-tabs { display: flex; flex-wrap: wrap; gap: 4px 16px; border-bottom: 1px solid #e7e7e7; padding-top: 8px; }
+.category-tabs button { min-height: 44px; padding: 10px 2px; border: 0; border-bottom: 2px solid transparent; color: #666; background: transparent; font: inherit; cursor: pointer; }
+.category-tabs button[aria-selected="true"] { color: #111; border-bottom-color: #222; font-weight: 600; }
+.category-tabs button:hover { color: #111; }
+.news-group { margin-top: 28px; }
+.news-group h3 { margin: 0; padding-bottom: 8px; border-bottom: 1px solid #e7e7e7; font-size: 16px; }
+.item h4 { margin: 0; font-size: 15px; font-weight: 600; overflow-wrap: anywhere; }
+.item .article-body { margin: 8px 0; color: #444; white-space: pre-wrap; overflow-wrap: anywhere; line-height: 1.9; }
+.item .article-links { display: flex; flex-wrap: wrap; gap: 8px 16px; }
+.item .article-links a { color: #555; font-size: 13px; text-decoration: underline; text-underline-offset: 3px; }
+.coverage-note { margin-top: 20px; color: #666; font-size: 13px; }
+.coverage-note summary { cursor: pointer; min-height: 32px; }
+.source, .count, .message { color: #666; }
+#dates button { min-height: 44px; }
+:root { color-scheme: light; }
 :focus-visible { outline: 2px solid #555; outline-offset: 3px; }
 @media (max-width: 640px) {
   .layout { grid-template-columns: 116px minmax(0, 1fr); }

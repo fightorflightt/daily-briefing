@@ -2,25 +2,32 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>公众号资讯</title>
-  <meta name="description" content="每天23:00更新的公众号文章目录，按日期阅读并直达原文。">
-  <link rel="stylesheet" href="style.css?v=20261025-aibuilder">
+  <title>每日资讯</title>
+  <meta name="description" content="按日期阅读公众号、AI资讯、政策公告与每日复盘，保留来源链接。">
+  <link rel="stylesheet" href="style.css?v=20261027-categories">
 </head>
 <body>
   <div class="layout">
     <aside class="sidebar">
-      <h1>公众号资讯</h1>
+      <h1>每日资讯</h1>
       <nav id="dates" aria-label="日期（最新在上）"></nav>
       <nav class="page-nav" aria-label="站点页面"><a href="aibuilder.html">aibuilder</a></nav>
     </aside>
     <main class="main">
       <header class="toolbar">
         <h2 id="issue-date">加载中…</h2>
-        <input id="search" type="search" aria-label="搜索文章" placeholder="搜索标题或公众号">
+        <label class="visually-hidden" for="search">搜索当前分类</label>
+        <input id="search" type="search" placeholder="搜索当前分类">
       </header>
-      <section id="content" aria-label="文章列表" aria-busy="true"><p class="message" role="status">正在加载文章…</p></section>
+      <nav class="category-tabs" role="tablist" aria-label="资讯分类">
+        <button id="tab-gongzhonghao" type="button" role="tab" data-category="gongzhonghao" aria-controls="content" aria-selected="true">公众号</button>
+        <button id="tab-ai" type="button" role="tab" data-category="ai" aria-controls="content" aria-selected="false" tabindex="-1">AI资讯</button>
+        <button id="tab-zhengce" type="button" role="tab" data-category="zhengce" aria-controls="content" aria-selected="false" tabindex="-1">政策公告</button>
+        <button id="tab-fupan" type="button" role="tab" data-category="fupan" aria-controls="content" aria-selected="false" tabindex="-1">每日复盘</button>
+      </nav>
+      <section id="content" role="tabpanel" aria-labelledby="tab-gongzhonghao" tabindex="0" aria-busy="true"><p class="message" role="status">正在加载资讯…</p></section>
       <footer class="site-footer"><a href="aibuilder.html">aibuilder</a><span>AI 信息源目录</span></footer>
     </main>
   </div>
-  <script src="app.js?v=20261025-aibuilder"></script>
+  <script src="app.js?v=20261027-categories"></script>
 </body></html>
