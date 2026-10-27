@@ -1,51 +1,31 @@
 {
-  "date": "2026-10-26",
-  "updatedAt": "2026-10-26T15:47:46.025Z",
+  "date": "2026-10-27",
+  "updatedAt": "2026-10-27T14:58:30.066Z",
   "note": "筛选政策法规、重要会议及具体机会；按文章标题初筛，保留公众号原文链接。日期表示资讯记录日期，不代表原始发布日期。",
   "filterVersion": "2026-10-26-policy",
-  "summary": "今天筛选出8篇资讯。政策法规方面，关注福建省人民政府办公厅印发《关于支持福州加快建设现代化国际城市的若干措施》的通知、李强签署国务院令 公布《事业单位登记管理条例》、小微税费政策一点通：什么是小型微利企业？；会议部署方面，涉及2026年前三季度财政收支情况新闻发布会文字实录、党的二十届五中全会在北京开始举行、特种设备学术大会在京召开；机会信息包括泉州仰恩大学招聘，提供住宿。",
-  "totalCollected": 37,
-  "filteredCount": 29,
+  "summary": "今天筛选出4篇资讯。政策法规方面，关注图解政策；会议部署方面，涉及党的二十届五中全会在北京开始举行、【地方工信】广东、天津召开先进制造业大会 持续做大做强先进制造业；机会信息包括2026年年度“四上”企业入库纳统申报啦！这份申报指南请收好。",
+  "totalCollected": 30,
+  "filteredCount": 26,
   "gongzhonghao": [
     {
       "type": "福建财政",
-      "title": "2026年前三季度财政收支情况新闻发布会文字实录",
-      "url": "https://mp.weixin.qq.com/s/xIb3xrzLWXqYoLWp79DFNQ"
-    },
-    {
-      "type": "泉州华图",
-      "title": "泉州仰恩大学招聘，提供住宿",
-      "url": "https://mp.weixin.qq.com/s/NBhGlcsfHiKTpWMGA7RljQ"
-    },
-    {
-      "type": "中国福建",
-      "title": "福建省人民政府办公厅印发《关于支持福州加快建设现代化国际城市的若干措施》的通知",
-      "url": "https://mp.weixin.qq.com/s/3wt3thQa5M0ujBEqWDXHSA"
-    },
-    {
-      "type": "中国政府网",
-      "title": "李强签署国务院令 公布《事业单位登记管理条例》",
-      "url": "https://mp.weixin.qq.com/s/Ux1Sz~uDY7eQQLRew62gZQ"
-    },
-    {
-      "type": "国家税务总局",
-      "title": "小微税费政策一点通：什么是小型微利企业？",
-      "url": "https://mp.weixin.qq.com/s/0m2kYyIqzZ3ehB4eR3YNog"
-    },
-    {
-      "type": "福建工信",
       "title": "党的二十届五中全会在北京开始举行",
-      "url": "https://mp.weixin.qq.com/s/I-giszKDZwicK74X3LKGGA"
+      "url": "https://mp.weixin.qq.com/s/S6T-V272SFmRwJZEAlDAvw"
     },
     {
-      "type": "司法部",
-      "title": "李强签署国务院令 公布《事业单位登记管理条例》",
-      "url": "https://mp.weixin.qq.com/s/O~p8pBybmpV5Q3O-Z9z7qA"
+      "type": "泉州统计",
+      "title": "2026年年度“四上”企业入库纳统申报啦！这份申报指南请收好",
+      "url": "https://mp.weixin.qq.com/s/~ppt36BmAcMc3V2Guus0gw"
     },
     {
-      "type": "市说新语",
-      "title": "特种设备学术大会在京召开",
-      "url": "https://mp.weixin.qq.com/s/tnwfBreoywJLp1ip5HGQ8A"
+      "type": "工信微报",
+      "title": "【地方工信】广东、天津召开先进制造业大会 持续做大做强先进制造业",
+      "url": "https://mp.weixin.qq.com/s/oEd3TFeuhu5X1aV-0nBYZw"
+    },
+    {
+      "type": "厦门发布",
+      "title": "图解政策",
+      "url": "https://mp.weixin.qq.com/s/kD7ynGAGxdL0aRN9OQoOVw"
     }
   ]
 }

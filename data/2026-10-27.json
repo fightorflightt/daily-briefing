@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-27",
+  "updatedAt": "2026-10-27T14:58:30.066Z",
+  "note": "筛选政策法规、重要会议及具体机会；按文章标题初筛，保留公众号原文链接。日期表示资讯记录日期，不代表原始发布日期。",
+  "filterVersion": "2026-10-26-policy",
+  "summary": "今天筛选出4篇资讯。政策法规方面，关注图解政策；会议部署方面，涉及党的二十届五中全会在北京开始举行、【地方工信】广东、天津召开先进制造业大会 持续做大做强先进制造业；机会信息包括2026年年度“四上”企业入库纳统申报啦！这份申报指南请收好。",
+  "totalCollected": 30,
+  "filteredCount": 26,
+  "gongzhonghao": [
+    {
+      "type": "福建财政",
+      "title": "党的二十届五中全会在北京开始举行",
+      "url": "https://mp.weixin.qq.com/s/S6T-V272SFmRwJZEAlDAvw"
+    },
+    {
+      "type": "泉州统计",
+      "title": "2026年年度“四上”企业入库纳统申报啦！这份申报指南请收好",
+      "url": "https://mp.weixin.qq.com/s/~ppt36BmAcMc3V2Guus0gw"
+    },
+    {
+      "type": "工信微报",
+      "title": "【地方工信】广东、天津召开先进制造业大会 持续做大做强先进制造业",
+      "url": "https://mp.weixin.qq.com/s/oEd3TFeuhu5X1aV-0nBYZw"
+    },
+    {
+      "type": "厦门发布",
+      "title": "图解政策",
+      "url": "https://mp.weixin.qq.com/s/kD7ynGAGxdL0aRN9OQoOVw"
+    }
+  ]
+}
