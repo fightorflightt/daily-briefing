@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-28",
+  "updatedAt": "2026-10-28T15:03:47.591Z",
+  "note": "筛选政策法规、重要会议及具体机会；按文章标题初筛，保留公众号原文链接。日期表示资讯记录日期，不代表原始发布日期。",
+  "filterVersion": "2026-10-26-policy",
+  "summary": "今天筛选出3篇资讯。政策法规方面，关注要素改革试点专家解读文章之一 | 向改革要活力  以试点探新路、8000亿元新型政策性金融工具投放完成、小微税费政策一点通：算笔账！小型微利企业所得税优惠到底能省多少钱？。",
+  "totalCollected": 29,
+  "filteredCount": 26,
+  "gongzhonghao": [
+    {
+      "type": "国家发展改革委",
+      "title": "要素改革试点专家解读文章之一 | 向改革要活力  以试点探新路",
+      "url": "https://mp.weixin.qq.com/s/IYsY0R6quTbp0urLPd6bEQ"
+    },
+    {
+      "type": "中国政府网",
+      "title": "8000亿元新型政策性金融工具投放完成",
+      "url": "https://mp.weixin.qq.com/s/TpC6t4cM22T33TazuNCvAw"
+    },
+    {
+      "type": "国家税务总局",
+      "title": "小微税费政策一点通：算笔账！小型微利企业所得税优惠到底能省多少钱？",
+      "url": "https://mp.weixin.qq.com/s/JEcnsN25Ir47EydBTgYoqQ"
+    }
+  ]
+}
