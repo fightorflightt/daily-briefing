@@ -1,26 +1,41 @@
 {
-  "date": "2026-10-28",
-  "updatedAt": "2026-10-28T15:03:47.591Z",
+  "date": "2026-10-29",
+  "updatedAt": "2026-10-29T14:56:54.321Z",
   "note": "筛选政策法规、重要会议及具体机会；按文章标题初筛，保留公众号原文链接。日期表示资讯记录日期，不代表原始发布日期。",
   "filterVersion": "2026-10-26-policy",
-  "summary": "今天筛选出3篇资讯。政策法规方面，关注要素改革试点专家解读文章之一 | 向改革要活力  以试点探新路、8000亿元新型政策性金融工具投放完成、小微税费政策一点通：算笔账！小型微利企业所得税优惠到底能省多少钱？。",
-  "totalCollected": 29,
-  "filteredCount": 26,
+  "summary": "今天筛选出6篇资讯。政策法规方面，关注基层就业、科研助理……@高校毕业生，拓宽就业渠道，支持政策一图get、事关养老服务、社会救助、儿童福利……福建公布重要规划、我市三部门联合印发！涉及这一模型全过程应用；会议部署方面，涉及中共中央将于30日上午举行新闻发布会 介绍和解读党的二十届五中全会精神、党的二十届五中全会审议通过《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》、市委召开专题会议研究开展青年返乡入乡发展改革试点工作。",
+  "totalCollected": 38,
+  "filteredCount": 32,
   "gongzhonghao": [
     {
-      "type": "国家发展改革委",
-      "title": "要素改革试点专家解读文章之一 | 向改革要活力  以试点探新路",
-      "url": "https://mp.weixin.qq.com/s/IYsY0R6quTbp0urLPd6bEQ"
-    },
-    {
       "type": "中国政府网",
-      "title": "8000亿元新型政策性金融工具投放完成",
-      "url": "https://mp.weixin.qq.com/s/TpC6t4cM22T33TazuNCvAw"
+      "title": "中共中央将于30日上午举行新闻发布会 介绍和解读党的二十届五中全会精神",
+      "url": "https://mp.weixin.qq.com/s/C7AvybVeXtxi-gobyr6ZIw"
     },
     {
       "type": "国家税务总局",
-      "title": "小微税费政策一点通：算笔账！小型微利企业所得税优惠到底能省多少钱？",
-      "url": "https://mp.weixin.qq.com/s/JEcnsN25Ir47EydBTgYoqQ"
+      "title": "党的二十届五中全会审议通过《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》",
+      "url": "https://mp.weixin.qq.com/s/fciEVLY8bXcqNE3egCxrNg"
+    },
+    {
+      "type": "人力资源和社会保障部",
+      "title": "基层就业、科研助理……@高校毕业生，拓宽就业渠道，支持政策一图get",
+      "url": "https://mp.weixin.qq.com/s/bDZ23Lr1-IU0gi4T17bCJg"
+    },
+    {
+      "type": "中国福建",
+      "title": "事关养老服务、社会救助、儿童福利……福建公布重要规划！",
+      "url": "https://mp.weixin.qq.com/s/rHN5r-AlEtyeDbtg87nxlw"
+    },
+    {
+      "type": "泉州政务",
+      "title": "我市三部门联合印发！涉及这一模型全过程应用→",
+      "url": "https://mp.weixin.qq.com/s/yhV02QNMoMTy4Wl59PPUDA"
+    },
+    {
+      "type": "泉州发布",
+      "title": "市委召开专题会议研究开展青年返乡入乡发展改革试点工作",
+      "url": "https://mp.weixin.qq.com/s/ZawO8H9okzjMX04kgzdvhw"
     }
   ]
 }
