@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-30",
+  "updatedAt": "2026-10-30T15:01:33.978Z",
+  "note": "筛选政策法规、重要会议及具体机会；按文章标题初筛，保留公众号原文链接。日期表示资讯记录日期，不代表原始发布日期。",
+  "filterVersion": "2026-10-26-policy",
+  "summary": "今天筛选出11篇资讯。政策法规方面，关注政策月报丨10月重要政策来了，速览、电动自行车新规；会议部署方面，涉及市委召开专题会议研究开展青年返乡入乡发展改革试点工作、工业和信息化部传达学习贯彻党的二十届五中全会精神、李强主持召开国务院党组会议；机会信息包括@北京市民，这项补贴申请时间延长！| 朝闻北京、办税小知识：查账征收的个体工商户如何在电子税务局办理增值税及附加税费申报？。",
+  "totalCollected": 33,
+  "filteredCount": 22,
+  "gongzhonghao": [
+    {
+      "type": "北京发布",
+      "title": "@北京市民，这项补贴申请时间延长！| 朝闻北京",
+      "url": "https://mp.weixin.qq.com/s/x6hB9confPoI1wiWQ--LTg"
+    },
+    {
+      "type": "泉州政务",
+      "title": "市委召开专题会议研究开展青年返乡入乡发展改革试点工作",
+      "url": "https://mp.weixin.qq.com/s/DXbsQEfcjjMgSK85gKnyKA"
+    },
+    {
+      "type": "工信微报",
+      "title": "工业和信息化部传达学习贯彻党的二十届五中全会精神",
+      "url": "https://mp.weixin.qq.com/s/m8wRFT-T6dEjhF5~VhD7XQ"
+    },
+    {
+      "type": "国家发展改革委",
+      "title": "李强主持召开国务院党组会议",
+      "url": "https://mp.weixin.qq.com/s/xphQqLApX0CpRgSrpiDmtw"
+    },
+    {
+      "type": "财政部",
+      "title": "财政部党组召开会议传达学习党的二十届五中全会精神",
+      "url": "https://mp.weixin.qq.com/s/lnasFwgezUBFlNJ513TqeQ"
+    },
+    {
+      "type": "国家税务总局",
+      "title": "办税小知识：查账征收的个体工商户如何在电子税务局办理增值税及附加税费申报？",
+      "url": "https://mp.weixin.qq.com/s/v0x0gDH4Fu8kEr7o22j8pg"
+    },
+    {
+      "type": "国家金融监督管理总局",
+      "title": "李强主持召开国务院党组会议 学习贯彻习近平总书记在党的二十届五中全会上的重要讲话和全会精神 丁薛祥出席",
+      "url": "https://mp.weixin.qq.com/s/~I30LTWGb96UvNmK9A8JKA"
+    },
+    {
+      "type": "中国人民银行",
+      "title": "李强主持召开国务院党组会议 学习贯彻习近平总书记在党的二十届五中全会上的重要讲话和全会精神 丁薛祥出席",
+      "url": "https://mp.weixin.qq.com/s/c9YsBdc8YbaS-ugBsboARg"
+    },
+    {
+      "type": "中国福建",
+      "title": "政策月报丨10月重要政策来了，速览！",
+      "url": "https://mp.weixin.qq.com/s/VrkXaSUpITdT0QTRarfN6w"
+    },
+    {
+      "type": "杭州发布",
+      "title": "市政府党组传达学习党的二十届五中全会精神  杜旭亮讲话",
+      "url": "https://mp.weixin.qq.com/s/A52UtnNO09ZiJBoJXakiLA"
+    },
+    {
+      "type": "泉州本地宝",
+      "title": "11月1日起，电动自行车新规正式实施！",
+      "url": "https://mp.weixin.qq.com/s/dmtEXfXZTp7aKc75Rsjfnw"
+    }
+  ]
+}
