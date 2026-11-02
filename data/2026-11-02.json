@@ -1,11 +1,11 @@
 {
   "date": "2026-11-02",
-  "updatedAt": "2026-11-02T13:20:06.688Z",
+  "updatedAt": "2026-11-02T14:57:23.910Z",
   "note": "筛选政策法规、重要会议及具体机会；按文章标题初筛，保留公众号原文链接。日期表示资讯记录日期，不代表原始发布日期。",
   "filterVersion": "2026-10-26-policy",
-  "summary": "今天筛选出3篇资讯。会议部署方面，涉及晋江党员干部持续热议学习贯彻党的二十届五中全会精神（二）；机会信息包括泉州送岗引才活动报名、七险一金！15薪！晋江自来水招聘。",
-  "totalCollected": 29,
-  "filteredCount": 26,
+  "summary": "今天筛选出7篇资讯。会议部署方面，涉及晋江党员干部持续热议学习贯彻党的二十届五中全会精神（二）、陈文清主持召开中央政法委员会全体会议 传达学习贯彻习近平总书记在党的二十届五中全会上的重要讲话和全会精神、市政府党组会议传达学习贯彻党的二十届五中全会精神；机会信息包括泉州送岗引才活动报名、七险一金！15薪！晋江自来水招聘、泉州市人民政府与招商局集团签订战略合作框架协议。",
+  "totalCollected": 39,
+  "filteredCount": 32,
   "gongzhonghao": [
     {
       "type": "泉州人社",
@@ -21,6 +21,26 @@
       "type": "泉州华图",
       "title": "七险一金！15薪！晋江自来水招聘",
       "url": "https://mp.weixin.qq.com/s/wwJO077scagdP78XnxJsTg"
+    },
+    {
+      "type": "司法部",
+      "title": "陈文清主持召开中央政法委员会全体会议 传达学习贯彻习近平总书记在党的二十届五中全会上的重要讲话和全会精神",
+      "url": "https://mp.weixin.qq.com/s/HsOT1HlzNrWdqisEnwtfmg"
+    },
+    {
+      "type": "上海发布",
+      "title": "市政府党组会议传达学习贯彻党的二十届五中全会精神",
+      "url": "https://mp.weixin.qq.com/s/9xt1F3HapTKnVhb65qvZfQ"
+    },
+    {
+      "type": "深圳发布",
+      "title": "市委常委会（扩大）会议和全市干部大会召开 认真学习贯彻党的二十届五中全会精神",
+      "url": "https://mp.weixin.qq.com/s/z3s9pQLvMO0I1Z9XyysZIg"
+    },
+    {
+      "type": "泉州发布",
+      "title": "泉州市人民政府与招商局集团签订战略合作框架协议",
+      "url": "https://mp.weixin.qq.com/s/Xx10Ne3ehZYJQr6aGXDXVw"
     }
   ]
 }
