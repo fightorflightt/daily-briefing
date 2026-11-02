@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-02",
+  "updatedAt": "2026-11-02T13:20:06.688Z",
+  "note": "筛选政策法规、重要会议及具体机会；按文章标题初筛，保留公众号原文链接。日期表示资讯记录日期，不代表原始发布日期。",
+  "filterVersion": "2026-10-26-policy",
+  "summary": "今天筛选出3篇资讯。会议部署方面，涉及晋江党员干部持续热议学习贯彻党的二十届五中全会精神（二）；机会信息包括泉州送岗引才活动报名、七险一金！15薪！晋江自来水招聘。",
+  "totalCollected": 29,
+  "filteredCount": 26,
+  "gongzhonghao": [
+    {
+      "type": "泉州人社",
+      "title": "11月5日！2026年泉州市送岗引才进西安交通大学、长安大学活动启幕",
+      "url": "https://mp.weixin.qq.com/s/XZaOAhgfpef9DWBKJTQGgg"
+    },
+    {
+      "type": "晋江发布",
+      "title": "晋江党员干部持续热议学习贯彻党的二十届五中全会精神（二）",
+      "url": "https://mp.weixin.qq.com/s/~Q7xYzDbi-gagXyJpTrO1A"
+    },
+    {
+      "type": "泉州华图",
+      "title": "七险一金！15薪！晋江自来水招聘",
+      "url": "https://mp.weixin.qq.com/s/wwJO077scagdP78XnxJsTg"
+    }
+  ]
+}
