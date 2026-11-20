@@ -1,0 +1,344 @@
+{
+  "date": "2026-11-20",
+  "source": "已通过本地资讯质量校验的当日文件",
+  "sourceHashes": {
+    "ai": "bbed0b505387a929ea92a1931b07b2a4a50c4f3f1433c04e411a91dbfc2bbf3c",
+    "zhengce": "49fbd0bcddb9ebb61ef7e5965e3e28a259cfb8b137b0214de4aa593edc902ad9",
+    "fupan": "2470d42204e3513c862161ef09e97ec2f344b6649a3fbb9dab192fbac2c2fb52"
+  },
+  "limitations": {
+    "ai": [
+      "本次资讯按可核验来源生成；未覆盖来源及访问限制已记录在本地日报。"
+    ],
+    "zhengce": [
+      "本次资讯按可核验来源生成；未覆盖来源及访问限制已记录在本地日报。"
+    ],
+    "fupan": [
+      "本次资讯按可核验来源生成；未覆盖来源及访问限制已记录在本地日报。"
+    ]
+  },
+  "ai": [
+    {
+      "subcategory": "AI Builder",
+      "title": "Josh Woodward：Gemini 4 Neon 让复杂工作流更接近可交付产品 · 2026-11-18 · builder-follow",
+      "body": "Google 产品负责人 Josh Woodward 展示 Gemini 4 Neon 的新能力，重点是把复杂任务拆成可执行步骤，并在较长流程中保持上下文与结果质量。对产品工作而言，价值不只在生成文本，而在于把研究、草稿、校验和交付串成一条可复用流程。",
+      "urls": [
+        "https://x.com/joshwoodward/status/2123177835254952348"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Google Labs：Project Genie 把生成式体验推进到可交互原型 · 2026-11-18 · builder-follow",
+      "body": "Google Labs 发布 Project Genie 的演示，展示从自然语言意图到可探索体验的方向。它提醒产品经理关注“先生成、再互动、再修正”的闭环：原型不必一开始就完整，但必须让用户能快速验证假设。",
+      "urls": [
+        "https://x.com/GoogleLabs/status/2123118145552749015"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Thibault：GPT-6.2 Astra 适合更长链路的推理任务 · 2026-11-18 · builder-follow",
+      "body": "Thibault 分享 GPT-6.2 Astra 的体验，强调模型在复杂推理、上下文保持和任务连续性上的提升。可落地的启发是把一次性问答改造成带中间产物的任务流，并为关键节点保留人工复核。",
+      "urls": [
+        "https://x.com/thsottiaux/status/2123175166519992652"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Peter Yang：判断 Nvidia 的问题要从真实用户需求出发 · 2026-11-19 · builder-follow",
+      "body": "Peter Yang 提出理解 Nvidia 时不能只看芯片叙事，还要追问谁在使用、为什么使用以及使用是否持续。对 AI 产品规划的启发是把技术热点转译成用户任务、付费意愿和可验证的使用频率。",
+      "urls": [
+        "https://x.com/petergyang/status/2123290075882807352"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Thariq：强观点的价值在于推动具体行动 · 2026-11-18 · builder-follow",
+      "body": "Thariq 讨论如何把强观点转化为待办事项，而不是停留在表达立场。对知识管理和产品决策而言，可以把每个判断配上证据、反例和下一步验证动作，减少“看过但没有改变行为”。",
+      "urls": [
+        "https://x.com/trq212/status/2123106368492298653"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Amjad Masad：agent message boards 是多代理协作的基础设施 · 2026-11-18 · builder-follow",
+      "body": "Amjad Masad 分享 Replit Missions 与 agent message boards 的方向，让多个代理能够围绕任务交换状态、请求帮助和传递结果。可借鉴的产品设计是把代理协作从隐式上下文变成可观察、可追踪的工作记录。",
+      "urls": [
+        "https://x.com/amasad/status/2123133509028008331"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Guillermo Rauch：代理间消息需要独立于界面的基础设施 · 2026-11-19 · builder-follow",
+      "body": "Guillermo Rauch 讨论 agent message board 作为基础设施的意义：代理需要稳定的消息、状态和任务边界，而不是依赖某个聊天界面。对工作台产品来说，协作协议和审计记录会逐渐成为核心能力。",
+      "urls": [
+        "https://x.com/rauchg/status/2123237505810178434"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Aaron Levie：自主目标系统会改变软件的控制面 · 2026-11-19 · builder-follow",
+      "body": "Aaron Levie 讨论自主目标系统，重点不只是让代理完成单个动作，而是让它持续追踪目标、资源和结果。产品设计需要同时提供目标约束、权限边界、进度可见性和人工接管入口。",
+      "urls": [
+        "https://x.com/levie/status/2123278949749059756"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Zara Zhang：内容复利来自持续积累而不是单次爆发 · 2026-11-18 · builder-follow",
+      "body": "Zara Zhang 分享复合式内容增长的思路：把一次研究拆成多种表达，并让反馈反哺下一轮生产。对个人品牌和知识库而言，关键是建立从来源、观点到实践案例的可回收链路。",
+      "urls": [
+        "https://x.com/zarazhangrui/status/2122953849120153714"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Nikunj：早期产品表达要先回答用户为何现在需要 · 2026-11-18 · builder-follow",
+      "body": "Nikunj 分享产品 pitch 的判断方法，强调先讲清楚用户痛点、变化时机和为什么由现在的团队解决。对产品定位来说，这比堆叠模型参数更能帮助团队形成统一的价值主张。",
+      "urls": [
+        "https://x.com/nikunj/status/2123066196052381864"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Aditya：AI 投资判断要看分发与工作流，而不只看模型能力 · 2026-11-19 · builder-follow",
+      "body": "Aditya 讨论早期 AI 投资时应观察真实分发、工作流嵌入和用户留存。对做产品的人而言，模型能力是起点，能否进入高频任务并形成数据或流程壁垒才决定长期价值。",
+      "urls": [
+        "https://x.com/adityaag/status/2123293726110020052"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Sam Altman：领导力需要把愿景转成团队可执行的判断 · 2026-11-18 · builder-follow",
+      "body": "Sam Altman 分享与 Greg Brockman 相关的领导力讨论，强调方向感、信任和持续执行之间的关系。对项目推进而言，需要把抽象愿景拆成少量关键选择，并让团队知道何时坚持、何时调整。",
+      "urls": [
+        "https://x.com/sama/status/2123103873166381287"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Notion 创始人：AI 最缺的不是生成能力，而是企业上下文 · 2026-11-18 · builder-follow",
+      "body": "Every 的 AI & I 节目讨论 Notion 的产品演进与 AI。节目强调，AI 时代更持久的价值来自企业数据、语义、权限和工作上下文；团队还需要用看板和护栏协调代理，避免自动化变成不可追责的黑箱。",
+      "urls": [
+        "https://www.youtube.com/watch?v=PGWvMrF4XIA"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "GitHub 精选",
+      "title": "GitHub：last30days-skill",
+      "body": "last30days-skill 是一个面向 AI 代理的研究技能，把 Reddit、X、YouTube、Hacker News、Polymarket 和网页信息汇总到近期研究流程中。它适合产品经理做竞品、趋势和用户问题扫描，但使用时仍应核验原始来源，避免把聚合结果直接当作事实。\n来源主体：GitHub Trending\n内容类型：开源项目\n信息日期：2026-11-19\n质量评分：86\n与你相关：可作为 AI 产品调研的初始检索层。\n建议行动：先在一个主题上复现输出，并逐条回溯原始链接。",
+      "urls": [
+        "https://github.com/mvanhorn/last30days-skill"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "GitHub 精选",
+      "title": "GitHub：NVIDIA SkillEvaluator",
+      "body": "NVIDIA SkillEvaluator 面向 AI agent skill 的评测、安全和持续集成，帮助团队检查技能是否按预期工作以及是否引入不安全行为。它把“提示词能否完成任务”推进到可重复的工程验证，也能把测试结果接入持续集成流程，适合建立内部技能上线门槛。\n来源主体：GitHub Trending\n内容类型：开源工具\n信息日期：2026-11-19\n质量评分：84\n与你相关：适合工作台未来验证 AI 自动化流程的可靠性。\n建议行动：先选一个已有纯函数流程，整理成最小评测集。",
+      "urls": [
+        "https://github.com/NVIDIA/SkillEvaluator"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "GitHub 精选",
+      "title": "GitHub：t3code",
+      "body": "t3code 提供从其他电脑或手机控制 Claude Code、Codex 等编码代理的方向，把远程入口、任务状态和代理执行连接起来。它反映出 AI 编程工具正在从本地命令行走向可持续管理的远程工作流，也提示产品需要优先设计状态、权限、中断恢复和任务交接，才能让代理结果真正进入团队协作。\n来源主体：GitHub Trending\n内容类型：开源项目\n信息日期：2026-11-19\n质量评分：82\n与你相关：可用于观察 AI 编程工作台的远程协作形态。\n建议行动：只借鉴任务状态和权限设计，不直接引入未评估依赖。",
+      "urls": [
+        "https://github.com/pingdotgg/t3code"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "产品灵感",
+      "title": "ChatGPT for Sales",
+      "body": "产品做法：把销售研究、会议准备和客户跟进放进同一条 AI 工作流，并保留企业上下文。\n可抄作业：围绕一个高频角色设计“准备—执行—复盘”闭环，而不是只做单点问答。\n适用位置：产品经理的访谈准备、竞品研究和行动项整理。",
+      "urls": [
+        "https://openai.com/index/introducing-chatgpt-for-sales/"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "产品灵感",
+      "title": "GitHub Copilot 团队定制",
+      "body": "产品做法：允许团队为 Copilot 配置组织级行为和使用边界。\n可抄作业：把个人偏好升级为团队可复用的默认规则，并留下管理员控制点。\n适用位置：企业 AI 工具的权限、规范和落地治理。",
+      "urls": [
+        "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team/"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "产品灵感",
+      "title": "ChatGPT Wallet",
+      "body": "产品做法：把支付、账户和交易相关任务放进用户已有的 AI 对话上下文中。\n可抄作业：涉及高风险动作时，把授权、确认、记录和撤销设计成连续体验。\n适用位置：需要把信息查询推进到受控执行的个人工作流产品。",
+      "urls": [
+        "https://openai.com/index/introducing-chatgpt-wallet/"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "技术资讯",
+      "title": "GPT-6.2 Astra 与 Sol",
+      "body": "新增能力：OpenAI 发布 GPT-6.2 Astra 与 Sol，分别面向复杂推理和更高吞吐的工作负载。\n怎么接入：通过 OpenAI 官方模型与 API 文档核对可用模型、参数和权限。\n适用场景：需要长链路推理、工具调用或高频批处理的 AI 应用。",
+      "urls": [
+        "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "技术资讯",
+      "title": "GPT-Live 1.1",
+      "body": "新增能力：OpenAI API 更新了 GPT-Live 1.1，面向实时交互模型能力和接口可用性。\n怎么接入：先阅读官方模型页和实时 API 文档，再按现有会话链路做小规模验证。\n适用场景：语音、实时客服和需要低延迟反馈的交互产品。",
+      "urls": [
+        "https://developers.openai.com/api/docs/models/gpt-live-1.1"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "技术资讯",
+      "title": "GitHub Copilot 接入 Gemini 4 Neon",
+      "body": "新增能力：GitHub Copilot 增加 Gemini 4 Neon，可在 Copilot 相关产品中选择该模型。\n怎么接入：在 GitHub Copilot 的模型选择与组织策略中确认可用范围。\n适用场景：代码生成、解释和需要不同模型风格的开发辅助。",
+      "urls": [
+        "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot/"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "技术资讯",
+      "title": "GitHub Copilot 浏览器交互",
+      "body": "新增能力：Copilot 可与浏览器交互，支持把网页操作纳入代理任务。\n怎么接入：阅读官方说明，确认组织策略、浏览器权限和人工确认机制。\n适用场景：网页测试、信息录入和需要可审计浏览器操作的流程。",
+      "urls": [
+        "https://github.blog/changelog/2026-11-17-let-github-copilot-interact-with-your-browser/"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "技术资讯",
+      "title": "Cloudflare File Summaries",
+      "body": "新增能力：Cloudflare 发布 File Summaries，用于在文件处理链路中生成摘要。\n怎么接入：按官方开发者文档配置对应 API 或工作流，并核对文件权限。\n适用场景：知识库入库、长文档预览和附件处理。",
+      "urls": [
+        "https://developers.cloudflare.com/changelog/post/2026-11-17-file-summaries/"
+      ],
+      "metadata": ""
+    }
+  ],
+  "zhengce": [
+    {
+      "subcategory": "全国视野",
+      "title": "中方、俄罗斯和美国发表关于和平解决乌克兰危机的联合声明",
+      "body": "国务院网站于2026年11月19日发布中方、俄罗斯和美国关于和平解决乌克兰危机的联合声明。页面明确了三方共同发布的外交信息，并记录了正式发布主体和发布日期，但未构成面向个人或企业的申报事项，本文仅作为全国层面的正式公告记录，不延伸解释为地方政策或财政安排。\n来源主体：中国政府网\n内容类型：联合声明\n信息日期：2026-11-19\n地区层级：全国",
+      "urls": [
+        "https://www.gov.cn/yaowen/liebiao/202611/content_7086723.htm"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "全国视野",
+      "title": "财政部就《政府采购领域本国产品标准及实施政策（征求意见稿）》公开征求意见",
+      "body": "财政部相关页面于2026年11月18日发布政府采购领域本国产品标准及实施政策征求意见信息，反馈截止时间为2026年11月25日。当前属于征求意见阶段，是否形成正式规则仍待后续发布，涉及主体应以原文和附件要求判断反馈方式、适用范围以及是否需要在截止日前提交意见。\n来源主体：财政部国库司\n内容类型：征求意见\n信息日期：2026-11-18\n地区层级：全国",
+      "urls": [
+        "https://gks.mof.gov.cn/gongzuodongtai/202611/t20261117_4004789.htm"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "全国视野",
+      "title": "财政部召开2027年预算管理相关工作调研座谈会",
+      "body": "财政部于2026年11月19日发布预算管理相关工作调研座谈会信息，会议围绕预算管理工作听取意见并开展研究。页面记录的是调研座谈动态，不等同于已经生效的财政政策，也没有在正文中形成面向个人的申报入口，后续如有正式制度安排仍应以财政部公告为准。\n来源主体：财政部\n内容类型：工作动态\n信息日期：2026-11-19\n地区层级：全国",
+      "urls": [
+        "https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/202611/t20261119_4004999.htm"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "福建视野",
+      "title": "福建省政府召开常务会议研究经济运行等工作",
+      "body": "福建省政府页面于2026年11月19日发布常务会议消息，会议研究经济运行等工作并部署相关事项。当前页面属于省级政府工作动态，正文没有提供面向个人的直接申报入口；企业和项目主体如需判断影响，应继续等待正式文件或执行通知，不能仅凭会议消息推断补贴、项目或资格。\n来源主体：福建省人民政府\n内容类型：政府工作动态\n信息日期：2026-11-19\n地区层级：福建",
+      "urls": [
+        "https://www.fujian.gov.cn/szf/hd/202611/t20261119_7251808.htm"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "福建视野",
+      "title": "福建省召开全省深化落实中央八项规定精神推进会",
+      "body": "福建省政府网站于2026年11月18日发布全省深化落实中央八项规定精神推进会信息，内容聚焦作风建设和监督落实。该页面是省级工作会议动态，不是面向市场主体的补贴或项目申报公告，本文保留原始事实并不外推个人资格或资金安排，后续执行以正式制度和主管部门通知为准。\n来源主体：福建省人民政府\n内容类型：工作会议\n信息日期：2026-11-18\n地区层级：福建",
+      "urls": [
+        "https://www.fujian.gov.cn/xwdt/fjyw/202611/t20261118_7251776.htm"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "泉州视野",
+      "title": "泉州市住建局公布装配式建筑发展情况相关信息",
+      "body": "泉州市住房和城乡建设局页面于2026年11月19日发布装配式建筑发展情况相关信息。当前页面包含地方住建领域的公开信息，但附件和具体执行条件仍应以原页面可下载材料为准，不能仅凭标题判断企业是否符合项目或资金条件，涉及申报的主体需要继续核对附件、时间和主管部门联系方式。\n来源主体：泉州市住房和城乡建设局\n内容类型：住建信息\n信息日期：2026-11-19\n地区层级：泉州",
+      "urls": [
+        "https://zfjsj.quanzhou.gov.cn/zwgk/zfxxgkzl/fdzdgknr/jsfztjxx/202611/t20261119_3345255.htm"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "泉州视野",
+      "title": "泉州市公开一批财政相关资金信息",
+      "body": "泉州市政府网站于2026年11月18日发布财政相关资金信息，页面显示相关金额为12214.99万元。该信息属于地方财政公开内容，使用时需结合原文对应项目、资金性质和执行部门核对，不能把金额直接解释为个人可申领补贴，也不能据此判断企业已经获得资金或仍可申请。\n来源主体：泉州市人民政府\n内容类型：财政信息\n信息日期：2026-11-18\n地区层级：泉州",
+      "urls": [
+        "https://www.quanzhou.gov.cn/zfb/xxgk/zfxxgkzl/qzdt/qzyw/202611/t20261118_3344605.htm"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "泉州视野",
+      "title": "泉州发布公共服务和城市建设相关动态",
+      "body": "泉州市政府网站于2026年11月18日发布公共服务和城市建设相关动态。页面提供了地方公开信息，但未显示与产品、UX/UI、AI 或项目管理岗位直接对应的报名入口，因此本次仅作为地方政策扫描记录，不将其改写成就业机会或个人申报机会，相关主体仍需回到具体主管部门公告确认。\n来源主体：泉州市人民政府\n内容类型：地方政务动态\n信息日期：2026-11-18\n地区层级：泉州",
+      "urls": [
+        "https://www.quanzhou.gov.cn/zfb/xxgk/zfxxgkzl/qzdt/qzyw/202611/t20261119_3344996.htm"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "数字经济",
+      "title": "福建省人工智能创新应用大赛公布相关结果",
+      "body": "福建省政府网站于2026年11月18日发布人工智能创新应用大赛相关信息，页面提到共有138支队伍参加并设置多个活动类别。该信息体现地方人工智能应用与产业组织的公开动态，但不等同于新的补贴申报政策，具体参赛或后续支持安排仍需以主办方公告为准。\n来源主体：福建省人民政府\n内容类型：人工智能产业活动\n信息日期：2026-11-18\n地区层级：福建",
+      "urls": [
+        "https://www.fujian.gov.cn/zwgk/ztzl/sxzygwzxsgzx/sdjj/szjj/202611/t20261118_7251055.htm"
+      ],
+      "metadata": ""
+    }
+  ],
+  "fupan": [
+    {
+      "subcategory": "每日成长复盘",
+      "title": "今日判断",
+      "body": "- 今日可复用的一个判断：AI 产品的长期价值不只在模型能力，还在企业数据、语义、权限和可追责的工作上下文。\n- 今日可执行动作：从今天的 AI Builder 或 GitHub 条目中选一个，写下“用户任务—中间产物—人工复核—结果指标”四格，不假设自己已经完成。\n- 今日待验证问题：远程代理协作需要哪些最小权限、状态和审计记录，才能进入个人工作台而不增加管理负担？",
+      "urls": [],
+      "metadata": ""
+    },
+    {
+      "subcategory": "每周政策与岗位复盘",
+      "title": "本周政策与岗位",
+      "body": "- 本周政策扫描的新增事实：全国、福建和泉州官网均有近三日更新；本次未把工作动态解释成补贴或个人申报政策。\n- 岗位扫描结果：未发现符合地域和产品、UX/UI、AI、项目管理或数字化背景且仍可报名的可核验岗位。\n- 下周继续关注：财政部征求意见截止日为2026年11月25日，若需参与，应先打开原文附件核对反馈方式和适用范围。",
+      "urls": [],
+      "metadata": ""
+    },
+    {
+      "subcategory": "每周成长周报",
+      "title": "本周成长周报",
+      "body": "- 本周主题：把 AI 工具从“单次生成”推进到“可复核、可追踪、可交付”的工作流。\n- 一个值得保留的实践原则：来源、判断、行动和结果要分开记录，不能用资讯摘要代替个人已完成的实践。\n- 下周最小实验：选择一个知识管理任务，记录一次 AI 生成结果的人工校验成本，并决定是否值得做成固定模板。",
+      "urls": [],
+      "metadata": ""
+    }
+  ]
+}
