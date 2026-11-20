@@ -20,6 +20,22 @@ test('完整正文与原始来源保留，不导出评分或机器注释', () =>
   assert.deepEqual(result.rows[0].urls,['https://example.com/original']);
   assert.equal(result.rows[0].metadata,'信息日期：2026-10-27；来源主体：官方');
 });
+test('政策正文末尾的来源字段显示在信息行，原摘要、链接与已有元数据保留', () => {
+  const source = fixture('zhengce').replace('摘要：保留完整正文。',
+    '摘要：保留完整正文。\n来源主体：正文来源\n内容类型：公告\n信息日期：2026-10-26\n地区层级：全国');
+  const {rows} = parseNews(source,'zhengce',date);
+  assert.equal(rows[0].body,'保留完整正文。');
+  assert.equal(rows[0].metadata,'信息日期：2026-10-27；来源主体：官方；地区层级：全国；内容类型：公告');
+  assert.deepEqual(rows[0].urls,['https://example.com/original']);
+  const withoutMachine = source.replace(/<!-- 机器核验：[^\n]*-->/,'');
+  assert.equal(parseNews(withoutMachine,'zhengce',date).rows[0].metadata,
+    '地区层级：全国；信息日期：2026-10-26；来源主体：正文来源；内容类型：公告');
+});
+test('政策摘要中的字段文字保留，只有元数据而没有摘要的条目拒绝导出', () => {
+  const source = fixture('zhengce').replace('摘要：保留完整正文。','摘要：政策解读。\n来源主体：正文中引用\n后续分析仍属正文。');
+  assert.equal(parseNews(source,'zhengce',date).rows[0].body,'政策解读。\n来源主体：正文中引用\n后续分析仍属正文。');
+  assert.throws(() => parseNews(fixture('zhengce').replace('摘要：保留完整正文。','来源主体：官方'),'zhengce',date),/空正文/);
+});
 test('有效空栏目可以发布，缺栏目、错误日期、未通过和数量不符均停止', () => {
   assert.deepEqual(parseNews(fixture('ai',{empty:true}),'ai',date).rows,[]);
   for (const source of [

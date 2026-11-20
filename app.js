@@ -47,7 +47,7 @@ function render() {
     body = rows.map(x => `<article class="item">${link(x.url, x.title)}<span class="source">${esc(x.type)}</span></article>`).join('');
   } else {
     const groups = [...new Set(rows.map(x => x.subcategory))];
-    body = groups.map(group => `<section class="news-group"><h3>${esc(group)}</h3>${rows.filter(x => x.subcategory === group).map(x => `<article class="item"><h4>${esc(x.title)}</h4>${x.metadata ? `<span class="source">${esc(x.metadata)}</span>` : ''}<p class="article-body">${esc(x.body)}</p><div class="article-links">${x.urls.map((url,i) => link(url, x.urls.length === 1 ? '查看原文' : `来源 ${i+1}`)).join('')}</div></article>`).join('')}</section>`).join('');
+    body = groups.map(group => `<section class="news-group"><h3>${esc(group)}</h3>${rows.filter(x => x.subcategory === group).map(x => `<article class="item"><h4>${esc(x.title)}</h4>${x.metadata && category !== 'zhengce' ? `<span class="source">${esc(x.metadata)}</span>` : ''}<p class="article-body">${esc(x.body)}</p><div class="article-links">${x.urls.map((url,i) => link(url, x.urls.length === 1 ? '查看原文' : `来源 ${i+1}`)).join('')}</div></article>`).join('')}</section>`).join('');
   }
   const limits = data.limitations?.[category] || [];
   const coverage = limits.length ? `<details class="coverage-note"><summary>来源覆盖说明</summary>${limits.map(x => `<p>${esc(x)}</p>`).join('')}</details>` : '';

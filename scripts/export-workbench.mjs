@@ -16,6 +16,23 @@ export function beijingDate() {
 function assertDate(date) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || new Date(`${date}T00:00:00Z`).toISOString().slice(0,10) !== date) throw new Error('日期格式或日期无效');
 }
+export function normalizePolicyPresentation(row) {
+  const keys = ['地区层级','信息日期','来源主体','内容类型','政策状态','适用主体','截止日期','来源限制'];
+  const lines = row.body.split('\n');
+  const fields = new Map();
+  while (lines.length) {
+    const match = lines.at(-1).match(/^(地区层级|信息日期|来源主体|内容类型|政策状态|适用主体|截止日期|来源限制)[：:]\s*(.*)$/);
+    if (!match) break;
+    fields.set(match[1],match[2]);
+    lines.pop();
+  }
+  if (!fields.size) return row;
+  // Explicit machine metadata takes precedence; retain all other existing fields.
+  const existing = (row.metadata || '').split('；').filter(Boolean);
+  const extras = keys.filter(key => fields.has(key) && !existing.some(value => new RegExp(`^${key}[：:]`).test(value)))
+    .map(key => `${key}：${fields.get(key)}`);
+  return {...row,body:lines.join('\n').trim(),metadata:[...existing,...extras].join('；')};
+}
 export function parseNews(source, category, date) {
   const marker = source.match(/<!--\s*生成核验[：:]\s*(\{[^\n]*\})\s*-->/);
   if (!marker) throw new Error(`${category} 缺少生成核验信息，停止同步`);
@@ -28,8 +45,10 @@ export function parseNews(source, category, date) {
   function finish() {
     if (!current) return;
     const body = current.lines.join('\n').trim().replace(/^摘要[：:]\s*/, '');
-    if (!body) throw new Error(`${category} 存在未完成的空正文：${current.title}`);
-    rows.push({subcategory, title:current.title, body, urls:[...new Set(current.urls)], metadata:current.metadata});
+    const row = {subcategory, title:current.title, body, urls:[...new Set(current.urls)], metadata:current.metadata};
+    const result = category === 'zhengce' ? normalizePolicyPresentation(row) : row;
+    if (!result.body) throw new Error(`${category} 存在未完成的空正文：${current.title}`);
+    rows.push(result);
     current = undefined;
   }
   for (const line of source.split('\n')) {
