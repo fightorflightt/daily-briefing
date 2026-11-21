@@ -3,8 +3,9 @@
   "source": "公开来源资讯；公开版已移除个人背景与内部工作信息",
   "limitations": {
     "ai": [
-      "固定YouTube主页仅返回导航或访问失败，无法核验7天内视频；Y Combinator与Lightcone共用一个入口。",
-      "AI Builder保留空栏目，不用其他动态补位。"
+      "AI Builder已通过GitHub连接读取原始feed恢复，收录11位X来源与1期播客，每个来源最多一条；未把缺少正文或必要上下文的链接补写成新闻。",
+      "原始feed快照生成于北京时间2026-11-20 14:29至14:30，本次收录最近7天内容，不代表已覆盖11月21日所有更新。",
+      "固定YouTube新增来源仍未核验到可读取的近期完整内容，因此本次新增视频来源为0；播客来自原始feed。"
     ],
     "zhengce": [
       "入口扫描不等于全部子栏目穷尽；无可读链接、拒绝访问、超时和扫描附件未识别的事项不据标题补写。",
@@ -17,6 +18,114 @@
     ]
   },
   "ai": [
+    {
+      "subcategory": "AI Builder",
+      "title": "Swyx · 2026-11-20 · builder-follow",
+      "body": "他提醒，社交媒体可能奖励夸张而非准确：先断言某团队不可能达到最先进水平，三个月后对方做到了，再发一份“道歉表”，两次都能获得大量点赞。失实几乎没有代价，夸张却有激励，而 X 的算法又强化了这种倾向。",
+      "urls": [
+        "https://x.com/swyx/status/2123591875349422435"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Josh Woodward · 2026-11-20 · builder-follow",
+      "body": "他宣布，Mac 版 Gemini 应用现在可以在电脑上执行任务，这是用户呼声很高的一项功能。",
+      "urls": [
+        "https://x.com/joshwoodward/status/2123534862569324703"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Thibault Sottiaux · 2026-11-20 · builder-follow",
+      "body": "团队大胆地认为，能够直接改进一款已有12亿用户使用的产品体验。接下来就看这套策略能否奏效。",
+      "urls": [
+        "https://x.com/thsottiaux/status/2123612889416339762"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Peter Yang · 2026-11-20 · builder-follow",
+      "body": "人们常拿 Google 规模庞大、流程繁琐开玩笑，但他认为它的一项竞争优势是：新模型和工具广泛发布前，有10万多名员工可以参与测试。员工规模如此之大，甚至能开展具有统计显著性的内部 A/B 测试。",
+      "urls": [
+        "https://x.com/petergyang/status/2123648490844897389"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Thariq · 2026-11-20 · builder-follow",
+      "body": "软件既是艺术，也是实用工具；AI 既像一场工业革命，也像一场文艺复兴。工厂擅长生产实用工具，而他在 AIE Code 的分享中讨论了如何创造更好的艺术。",
+      "urls": [
+        "https://x.com/trq212/status/2123524052195463568"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Amjad Masad · 2026-11-20 · builder-follow",
+      "body": "用一条提示词，构建自己的 Muse 式个人智能体。",
+      "urls": [
+        "https://x.com/amasad/status/2123535544718418191"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Guillermo Rauch · 2026-11-20 · builder-follow",
+      "body": "一家公司的起点，可以是那个帮助人们把公司建立起来的智能体。",
+      "urls": [
+        "https://x.com/rauchg/status/2123553975945556144"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Nikunj Kothari · 2026-11-20 · builder-follow",
+      "body": "看起来还是同一回事，只是如今变成了“PR 极致化”🤦‍♂️。应关注做什么、为谁做、为什么做，而不是怎么做。",
+      "urls": [
+        "https://x.com/nikunj/status/2123521753381232917"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Peter Steinberger · 2026-11-20 · builder-follow",
+      "body": "他表示，昨天已在 OpenClaw 中合入针对该问题的修复，面向少数使用内置执行框架而非 Codex 插件的用户；许多其他执行框架尚未更新。",
+      "urls": [
+        "https://x.com/steipete/status/2123487048250327497"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Dan Shipper · 2026-11-19 · builder-follow",
+      "body": "目前谁在帮助阻止正在发生的基础设施攻击？AI 领域的人可以怎样提供帮助？",
+      "urls": [
+        "https://x.com/danshipper/status/2123435061236404385"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "Aditya Agarwal · 2026-11-20 · builder-follow",
+      "body": "他表示今天为整个行业深感自豪，认为这不是零和的一天。计算机、硅谷和风险投资领域的人都应为推动人类进步感到自豪。",
+      "urls": [
+        "https://x.com/adityaag/status/2123579739868959110"
+      ],
+      "metadata": ""
+    },
+    {
+      "subcategory": "AI Builder",
+      "title": "No Priors · 2026-11-19 · builder-follow",
+      "body": "本期采访 Arda 联合创始人兼 CEO Bob McGrew，讨论为什么超级智能的发展不能只停留在数字世界。他认为，自动化研究者的工作不会自动带来无限加速，因为实验仍受 GPU、实验室和实体设备限制；当提出假设越来越便宜，执行实验的物理资源反而更稀缺。节目由此讨论制造业、机器人与物理智能的机会。",
+      "urls": [
+        "https://www.youtube.com/watch?v=_wLzJINt9iQ"
+      ],
+      "metadata": ""
+    },
     {
       "subcategory": "GitHub 精选",
       "title": "obra/superpowers：为 AI 编程提供从需求讨论到验证的工作流程",
@@ -844,4 +953,3 @@
     }
   ]
 }
-
